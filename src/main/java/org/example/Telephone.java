@@ -9,14 +9,6 @@ public class Telephone {
 
     private Telephone() {}
 
-    public static Telephone getInstance() {
-        if (instance == null) {
-            instance = new Telephone();
-        }
-        return instance;
-    }
-
-
     public static final class TelephoneBuilder {
         private String marka;
         private int ram;
